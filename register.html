@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    
+    <!-- BACKGROUND-WRAPPER -->
+    <main class="background_wrapper">
+        <div class="logo_wrapper"> <!-- Add a div for logo wrapper -->
+            <img src="https://i.pngimg.me/thumb/f/720/compngwingkgnvk.jpg" alt="Slytherin Logo" class="slytherin_logo"> 
+            <h1 class="slytherin">Slytherin</h1>
+        </div>
+        <div class="login_form_wrapper">
+            <!-- FORM -->
+            <form action="#" class="login__form">
+                <h1 class="title">Register</h1>
+
+                <div class="login_form_content">
+                    <div class="login_content_box">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <div class="login_content_box--input">
+                            <input type="text" placeholder=" " class="login__input email--input" required />
+                            <label for="text" class="login__label">Username</label>
+                        </div>
+                    </div>
+                    <!-- LOGIN-CONTENT-BOX-1 -->
+                    <div class="login_content_box">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <div class="login_content_box--input">
+                            <input type="email" placeholder=" " class="login__input email--input" required />
+                            <label for="email" class="login__label">Email</label>
+                        </div>
+                    </div>
+                    <!-- LOGIN-CONTENT-BOX-2 -->
+                    <div class="login_content_box">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+
+                        <div class="login_content_box--input">
+                            <input type="password" placeholder=" " class="login__input password--input" required />
+                            <label for="password" class="login__label">Password</label>
+                            <ion-icon class="password__hidden" id="password_hidden" name="eye-off-outline"></ion-icon>
+                        </div>
+                    </div>
+            
+
+                    <!-- LOGIN BUTTON -->
+                    <button class="button__login">Login</button>
+                    <!-- REGISTER LOGIN -->
+                    <p class="register__login text--sm">
+                        Already registered? <a href="login.html">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="register.js"></script>
+</body>
+
+</html>

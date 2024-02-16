@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main_page.css">
+    <script>
+        function scrollToEcatalogue() {
+            var element = document.getElementById("E-catalogue");
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-background navbar-dark">
+        <a class="navbar-brand " href="#"><img src="https://i.pinimg.com/736x/eb/74/a4/eb74a45a16792919d780d8406ad9c8c5.jpg" class="img-logo" /></a>
+        <a class="navbar-brand " href="#">
+            <p class="tex mt-2">Slytherin</p>
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#Home">
+                    Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link text-light " href="#products">Task assignment</a>
+                <a class="nav-link text-light" href="#contact">Task tracking</a>
+                <a class="nav-link text-light" href="#E-catalogue">Sign in</a>
+            </div>
+        </div>
+    </nav>
+    <div class="background-container d-flex flex-column justify-content-center" id="Home">
+        <h1 class="text ml-3">The software development tool used by agile teams.</h1>
+        <p class="text1 ml-3">Trusted by 100K+ teams that plan, track, release, and manage world-class software.</p>
+        <div class="centre">
+            <button class="button" onclick="scrollToEcatalogue()">Get started</button>
+        </div>
+    </div>
+
+
+    <div class="product-container row col-12" id="products">
+        <h1 class="products-head m-3 mb-5 col-12">Task assignment</h1>
+        <div class="container ">
+            <div class="row col-12">
+                <div class="equipments col-12 ">
+                    <img src="https://www.leadangel.com/wp-content/uploads/2022/08/8-Tips-to-Manage-Your-Sales-Team-Effectively-1-730x455.png" class="product-image ml-3" />
+                </div>
+                <p class="col-12">Round-robin task assignment algorithm where each team member receives an equal share of tasks to be completed daily. Allocate tasks in a fair and balanced manner, preventing any single team member from being overloaded with work while others have light loads. This approach helps optimize team productivity and prevents bottlenecks caused by uneven task distribution.                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1 class="contact-head col-12">Task tracking & Task analysis</h1>
+        <div class="container">
+            <div class="row col-12">
+                <p class="col-12">provides visibility into which tasks are in progress, completed, or pending, helping stakeholders stay updated on project progress and identify any potential bottlenecks.
+                    </p>
+                <div class="equipments col-12 ">
+                    <img src="https://static.vecteezy.com/system/resources/previews/016/921/110/original/business-task-management-illustration-concept-on-white-background-vector.jpg" class="product-image ml-3" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="E-catalogue">
+        <h1 class="e-catalogue">Sign Up</h1>
+        
+        <hr>
+        <div class="centre">
+            <a href="login.html" class="button">Super-Admin</a>
+        </div>
+        <hr>
+        <div class="centre">
+            <a href="login.html" class="button">Team-Lead</a>
+        </div>
+        <hr>
+        <div class="centre">
+            <a href="login.html" class="button">Team-Member</a>
+        </div>    
+        <hr>
+    </div>
+    </div>
+</body>
+
+</html>

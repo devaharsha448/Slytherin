@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Info</title>
+    <!-- Include the CSS provided earlier -->
+    <link rel="stylesheet" href="membeer-info.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Member Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="memberTableBody">
+            <!-- Member data will be dynamically added here -->
+        </tbody>
+    </table>
+    <button id="addMemberButton">Add Member</button>
+
+    <!-- Form for adding a member -->
+    <div id="addMemberForm" style="display: none;">
+        <h2>Add Member</h2>
+        <form id="memberForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" required><br><br>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <!-- Include any necessary JavaScript -->
+    <script src="member-info.js"></script>
+    </div>
+</body>
+</html>

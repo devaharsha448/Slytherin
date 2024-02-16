@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.alignn{
+    text-align: center;
+}
+
+.catalogue-text {
+    margin-left: 35px;
+    color: #64b5f6;
+    font-size: 17px;
+}
+
+.e-catalogue {
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: "Bree Serif";
+    margin-bottom: 15px;
+}
+
+.contact-head {
+    font-size: 35px;
+    font-family: "Bree Serif";
+
+}
+
+.contact {
+    background-color: #29436e;
+    color: #ffffff;
+}
+
+.equipments {
+    text-align: center;
+}
+
+.product-container {
+    padding: 10px;
+}
+
+.products-head {
+    color: black;
+    font-size: 35px;
+    font-family: "Bree Serif";
+}
+
+.product-image {
+    height: 200px;
+    width: 350px;
+    size: cover;
+}
+
+.centre {
+    text-align: center;
+}
+
+.button {
+    background-color: #ffffff;
+    height: 35px;
+    width: 130px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.text {
+    color: #251c85;
+    font-size: 35px;
+    font-family: "Bree Serif";
+    padding-left: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text1 {
+    color: #1d3c6e;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    padding-left: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.background-container {
+    background-image: url('https://img.freepik.com/free-vector/white-technology-background_23-2148390327.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+
+.img-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 17px;
+}
+
+.nav-background {
+    background-color: #29436e;
+}
+
+.tex {
+    color: white;
+    font-size: 30px;
+    font-family: "Bree Serif";
+}
